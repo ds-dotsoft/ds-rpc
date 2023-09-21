@@ -1,4 +1,8 @@
-resource_manifest_version "44febabe-d386-4d18-afbe-5e627f4af937"
+-- Resource Metadata
+fx_version 'cerulean'
+game 'gta5'
+
+lua54 'yes'
 
 client_script "shared/rpc.lua"
 client_script "lib.lua"
