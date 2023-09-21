@@ -1,11 +1,11 @@
-# FiveM RPC library
+# Dotsoft RPC Library (fivem-rpc fork)
 
 ## Description
 This resource is a simple [RPC](https://en.wikipedia.org/wiki/Remote_procedure_call) library for [FiveM](https://fivem.net/). It allows you to call methods on remote side and receive return values.
 
 ## Installation
-1. Copy this resource to your `resources` directory. Resource name should be `fivem-rpc`.
-2. Include client_script `'@fivem-rpc/lib.lua'` in your `__resource.lua`.
+1. Copy this resource to your `resources` directory. Resource name should be `ds-rpc`.
+2. Include `'@ds-rpc/lib.lua'` as a shared_script in your `fxmanifest.lua`.
 
 ## Example
 ```lua
@@ -33,7 +33,7 @@ Citizen.CreateThread(function ()
 end)
 ```
 
-You can find working example code in `fivem-rpc/example` folder.
+You can find working example code in `example` folder.
 
 ## Usage
 
